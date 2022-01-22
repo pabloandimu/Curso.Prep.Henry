@@ -1,0 +1,12 @@
+
+Variables: las variables son como cajitas (contenedores) donde podemos poner determinados valores, como ser letras, números, palabras, nombres, etc.
+
+Strings: son conjuntos de letras, que pueden estar desordenadas, o formar una palabra o palabras, como mesa o kdiek. 
+
+Funciones: las funciones son fragmentos, pedazos de código, texto que escribimos para programar, y que "hace algo", toma algunos datos (variables) o valores, y nos devuelve algo distinto.
+
+Declaraciones if: if en inglés significa si, y se utiliza como si yo dijera "SI tiro la pelota contra el tele, se puede romper". "SI suelto lo que tengo en la mano, se cae". 
+Entonces, nos sirve para verificar que si se da algo, o si pasa algo, ocurre luego, otra cosa. 
+
+Valores booleanos: los valores booleanos, tienen dos estados, es decir, false y true, que significan falso y verdadero, y decimos de algo que su valor, o sea su estado, lo que decimos de ello, es verdadero o falso.
+Ej.: 5 es mayor que 4 es verdadero (true). 4 es mayor que 5, es falso (false). 
