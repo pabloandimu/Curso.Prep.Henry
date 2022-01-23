@@ -1,0 +1,18 @@
+
+For: explicación.
+
+For es una statement o sentencia que ejecutará un bucle, una cantidad de veces determinadas, aumentando progresivamente la iteración
+hasta llegar al resultado determinado. 
+
+Imaginemos que tenemos un bolso con muchos bolsillos, y a cada bolsillo le ponemos un número. Hasta lograr la condición requerida, o sea, 
+hasta encontrar lo que buscamos, seguiremos revisando bolsillos.... primero el uno, luego el dos, luego el tres, luego el cuatro, hasta llegar 
+al quinto y encontrar lo que buscábamos. 
+
+Los operadores lógicos && || y !
+Cuando comparamos booleanos (que es algo que puede ser verdadero o falso, como esta mesa es marrón) con otros boolenaos
+(que también puede ser verdadero o falso, como 1 igual a 1), obtendremos resultados de esas comparaciones. 
+
+&& (y o and) es un operador que compara operandos (cosas) y nos devuelve un booleano, que será true, si ambos son true, y false en todos los otros casos. 
+|| (o u or) es un operador que compara operandos (cosas) y nos devuele un booelano, que sera false, si ambos son false, y true en todos los otros casos. 
+! (negación o no o not) es un operador que invierte el estado booleano, o cambio a su opuetos, de falso a no falso, y de verdadero a no verdadero. 
+Una doble negación es una afirmación por ende un no no false, es un falso. Y esta expresión !== significa no es igual, en cualquier sentido. 
