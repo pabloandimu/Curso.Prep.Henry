@@ -1,0 +1,6 @@
+
+Arrays: los arrays (o arreglos en españos) son conjutos de variables. 
+Imaginemos el array como un conjunto de cajitas, en las que podemos poner cosas (variables), 
+es decir podemos poner números, strings, booleanos, null, undefined, dentro de esas cajitas.
+
+Es decir que un array, básicamente es un conjunto de cosas. 
