@@ -1,0 +1,82 @@
+
+
+Un arreglo (array) es un objeto enmascarado. 
+
+Los Obejetos tienen propiedades, que son un key ( o nombre ) y un valor. 
+En los arrays o arreglos, el key es un número, y el valor, una variable. 
+Y los arregles son objetos basados en k numéricas. 
+Un ARRAY (arreglo) es un OBJETO que tiene un índice numérico. 
+
+Ocurre lo mismo con los argumentos (arguments) que tienen un índice numérico. 
+
+Hay 2 FORMAS de acceder a las propiedades (de un objeto).
+
+La primera es BRACKETS NOTATION o notación o nombrado de corchete.
+Se escriben los corchetes y adentro del NOMBRE de la propiedad (las propiedades so strings). 
+
+Toni = {
+   name: Toni,
+   edad:  33,
+   cursando: false,
+}
+
+Toni["name"] 
+(devuelve) Toni
+
+El segundo metodo, tiene que ver con el reconocimiento de que sería más facil en vez de escribir [", 
+escribir algo más simple, entonces se estable el nombre (punto) la propiedad.
+
+Toni.nombre 
+(devuelve) Toni
+
+La ventaja del DON'T NOTATION, es que es fácil de escribir. 
+La desventaja, es que el DN es literal. Si pongo
+
+Toni.i (va a buscar la propiedad de nombre i, y si no está definida, aunque yo tuviera una var i = "nombre", 
+no me lo va a devoler, como sí  me devolvería Toni[i]  ==> Toni o  Toni["nombre"]   Toni
+
+Toni["i"] = "propiedad i"
+Toni[i] = Toni (nombre)
+
+Toni["i"] = es un string i
+Toni[i] = es una variable i
+
+Entonces, recapitulando, tenemos DONT NOTATION y BRACKET NOTATION.
+Puedo asignar un valor a una nueva propiedad
+
+Toni.altura = 1.80;
+
+delete toni.i;  (borra una propiedad del objeto y devuelve true). 
+
+------------------------------------------------------------------------------------
+
+VAMOS A VER UN KEYWORD que se llama THIS. 
+Cuando uso una FUNCTION (función) dentro de un objeto, no la vamos a referir como función, 
+sino como METODO del objeto, en el cual está declarada la función. 
+Entonces, cuando una propiedad sea una FUNCION, le vamos a decir método. 
+
+DRY CODE do not repeat yourself
+
+THIS hace referencia al OBJETO de donde estás invocando el MÉTODO (o antes decíamos función). 
+
+----------------------------------------------------------------------------------------
+
+RESUMEN
+
+Los objetos se instancian usando llaves ({}).
+Los objetos usan un concepto que es un par "clave/valor" (o key/value). 
+La sintaxis es “clave: valor” (las propiedades del objeto son cada uno de estos pares). 
+
+Crearemos un OBJETO user (usuario). 
+
+const user = {
+    username: 'juan.perez',
+    password: 'loremipsumpwd123',
+    lovesJavascript: true,
+    favoriteNumber: 42
+};
+
+
+
+
+
